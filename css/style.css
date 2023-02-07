@@ -111,17 +111,22 @@ section h1{
 #download h1{
     text-transform: uppercase;
     font-size: 4rem;
-    font-weight: 800;
+    font-weight: 900;
+    padding-top: 73px;
+    padding-left: 0px;
 }
 #download .d-flex.start{
     justify-content: space-between;
     flex-flow: row;
 }
 #download header section div.text.wrapper{
-    max-width: 400px;
+    max-width: 50%;
 }
 #download header section{
     width: 100%;
+}
+#download header section img{
+    width: 50%;
 }
 /* main */
 .g-bg.bot-padded{
