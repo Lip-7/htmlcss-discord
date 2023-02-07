@@ -50,6 +50,9 @@
 a{
     text-decoration: none;
 }
+li a:hover{
+    text-decoration: underline;
+}
 .button.black{
     background-color: var(--bg-footer);
 }
