@@ -74,6 +74,24 @@ li a:hover{
 .button.blue:hover{
     background-color: #7e8fcb;
 }
+#download .flex-d{
+    display: flex;
+}
+#download .colum{
+    flex-flow: column;
+}
+#download .just-cent{
+    justify-content: center;
+}
+#download .just-start{
+    justify-content: flex-start;
+}
+#download .ali-cent{
+    align-items: center;
+}
+#download .f-row-w{
+    flex-flow: row wrap;
+}
 /* header */
 header{
     background-color: var(--bg-header);
@@ -209,6 +227,21 @@ div.section-footer button{
 }
 div.section-footer h3{
     padding-top: 20px;
+}
+#download article.device.box{
+    max-width: 45%;
+    height: 555px;
+    background-color: var(--bg-section);
+    overflow: hidden;
+    padding: 4rem;
+    margin: 50px 25px 25px 0px;
+    border-radius: 20px;
+}
+#download main a{
+    padding:15px 30px;
+}
+#download #android{
+    margin-top: 200px;
 }
 /* footer */
 footer{
