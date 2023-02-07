@@ -230,7 +230,7 @@ div.section-footer h3{
 }
 #download article.device.box{
     max-width: 45%;
-    height: 555px;
+    height: 600px;
     background-color: var(--bg-section);
     overflow: hidden;
     padding: 4rem;
@@ -239,9 +239,38 @@ div.section-footer h3{
 }
 #download main a{
     padding:15px 30px;
+    margin-bottom: 55px;
 }
 #download #android{
     margin-top: 200px;
+}
+#download #linux{
+    margin-top: -155px;
+    padding-left: 102px;
+    margin-left: 25px;
+}
+#download #mac{
+    padding: 2rem;
+    padding-right: 55px;
+    margin-top: 1px;
+    margin-right: 43px;
+}
+#download #beta{
+    height: 300px;
+    margin-right: 625px;
+    margin-top: -163px;
+    width: 575px;
+}
+#download #beta h3{
+    font-size: 1.7rem;
+    padding: 10px 0px;
+}
+#download #beta p{
+    line-height: 1.625;
+    padding-bottom: 10px;
+}
+#download #beta-button{
+    width: fit-content;
 }
 /* footer */
 footer{
