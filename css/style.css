@@ -115,6 +115,9 @@ section h1{
     padding-top: 73px;
     padding-left: 0px;
 }
+#download div.text.wrapper p{
+    font-size: 1.3rem;
+}
 #download .d-flex.start{
     justify-content: space-between;
     flex-flow: row;
@@ -127,6 +130,16 @@ section h1{
 }
 #download header section img{
     width: 50%;
+}
+#download .header-buttons{
+    padding-top: 20px;
+    justify-content: flex-start;
+}
+#download header .header-buttons .button{
+    padding: 20px 40px;
+}
+#download header .header-buttons span{
+    padding-left: 20px;
 }
 /* main */
 .g-bg.bot-padded{
