@@ -143,6 +143,18 @@ div.section-footer button{
     align-items: center;
     padding-bottom: 4rem;
 }
+.h3-container{
+    max-width: 470px;
+    position: absolute;
+}
+.section-footer img{
+    position: relative;
+    top: 0px;
+    max-width: 470px;
+}
+div.section-footer h3{
+    padding-top: 20px;
+}
 /* footer */
 footer{
     background-color: var(--bg-footer);
