@@ -87,10 +87,22 @@ section h1{
     padding-bottom: 90px;
 }
 /* main */
+.g-bg.bot-padded{
+    padding-bottom: 100px;
+}
 .wave{
     height: 100px;
     background-image: url(../img/wave.svg);
-    filter:opacity(0.4)
+    filter:opacity(0.04)
+}
+.right.wave.big{
+    margin-top: 100px;
+}
+.right.wave.little{
+    margin-top: 40px;
+}
+.flipped.wave{
+    transform: scaleY(-1);
 }
 h2{
     font-size: 2.5rem;
@@ -106,10 +118,10 @@ article{
     max-width: 25%;
 }
 article.maxed{
-    max-width: 80%;
+    max-width: 70%;
     text-align: center;
 }
-main>div:nth-child(even){
+.g-bg{
     background-color: var(--bg-section);
 }
 .flexed-article{
